@@ -1,0 +1,30 @@
+/* header */
+
+header {
+    /* background-color: #EEF1FF; */
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(0.6rem);
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 3.5rem;
+}
+
+.header_image{
+    background-image: url('../assets/bureau.png');
+    background-repeat: no-repeat, repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.head_subtitle{
+    color: black;
+    backdrop-filter: blur(6px);
+    background-color: rgba(244, 124, 124, 0.8);
+    border-radius: 1rem;
+    font-size: 16px;
+    padding: 0.7rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

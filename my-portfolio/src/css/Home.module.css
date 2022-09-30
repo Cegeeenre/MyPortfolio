@@ -1,0 +1,100 @@
+.container{
+    background-color: #EEF1FF;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+    padding-bottom: 3.5rem;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+@media  (max-width: 1208px) {
+    .home{
+        width: 50%;
+    }
+}
+
+
+
+
+
+section h3{
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+/* work_section */
+
+
+/* bio_section */
+.bio_section{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.info{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.info span{
+    margin-right: 2rem;
+}
+
+.info p{
+    margin: 0;
+}
+
+/* loves_info */
+
+.loves_info{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+/* .loves_info .contact_btn{
+    color: black;
+    border: none;
+    background-color: rgba(144, 145, 234, 0.6);
+    border-radius: 1rem;
+    font-size: 16px;
+    padding: 0.7rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.loves_info .contact_btn:hover{
+    background-color: rgba(144, 145, 234, 0.8);
+    text-decoration: none;
+} */
+
+.contact_btn{
+    margin-top: 2rem;
+    background-color: #F47C7C;
+    border: none;
+    text-align: right;
+    font-size: 16px;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact_btn:hover{
+    background-color: #f16c6c;
+}
