@@ -2,6 +2,8 @@ import React from "react"
 import {Link} from "react-router-dom";
 import styles from '../css/Nav.module.css'
 
+import BtnToggle from "./btnToggle/BtnToggle";
+
 import iris from '../assets/romarin.png'
 
 function Nav(){
@@ -17,9 +19,7 @@ function Nav(){
                 <div className={styles.nav_links}>
                     <Link to="/works">Works</Link>
                 </div>
-                <div className={styles.nav_nightBtn}>
-                    <button className={styles.night_tolight}>Night</button>
-                </div>
+                <BtnToggle/>
             </div>
         </div>
     )

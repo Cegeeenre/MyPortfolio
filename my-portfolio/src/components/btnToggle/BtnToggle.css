@@ -1,0 +1,26 @@
+.btn-toggle{
+    /* width: 25%; */
+    background-color: #333;
+    color: white;
+    border: none;
+    /* text-align: right; */
+    font-size: 16px;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-toggle.goLigth{
+    background: #333;
+    color: white;
+}
+
+.btn-toggle.goDark{
+    background: #fff;
+    color: black;
+}
