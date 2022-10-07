@@ -12,7 +12,7 @@ header {
 }
 
 .header_image{
-    background-image: url('../assets/bureau.png');
+    /* background-image: url('../assets/bureau.png'); */
     background-repeat: no-repeat, repeat;
     height: 100%;
     width: 100%;

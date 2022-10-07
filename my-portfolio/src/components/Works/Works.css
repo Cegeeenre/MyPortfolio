@@ -1,4 +1,4 @@
-.container{
+.works_container{
     background-color: #EEF1FF;
     margin-top: 3.5rem;
     display: flex;
@@ -7,6 +7,14 @@
     align-items: center;
     width: 100%;
     padding-bottom: 3.5rem;
+}
+.works_container.goLight{
+    background-color: #EEF1FF;
+    color: black;
+}
+.works_container.goDark{
+    background-color: #1E1E1E;
+    color: white;
 }
 
 .works{
@@ -29,6 +37,13 @@
     height: 1px;
     background-color: #434343;
     margin: 1rem 0;
+    transition: all 0.3s ease-in-out;
+}
+.separator.goLight{
+    background-color: #434343;
+}
+.separator.goDark{
+    background-color: #e8e8e8;
 }
 
 .work_title{

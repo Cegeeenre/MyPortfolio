@@ -1,5 +1,4 @@
-.container{
-    background-color: #EEF1FF;
+.footer_container{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -8,7 +7,7 @@
     padding-bottom: 3.5rem;
 }
 
-.copyrights{
+.footer_container p{
     font-size: 0.95rem;
     color: rgb(129, 129, 129);
 }
