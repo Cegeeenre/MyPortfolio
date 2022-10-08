@@ -7,22 +7,29 @@ header {
     backdrop-filter: blur(0.6rem);
     flex-direction: column;
     align-items: center;
+    width: 100%;
     height: auto;
     margin-top: 3.5rem;
 }
 
-.header_image{
-    /* background-image: url('../assets/bureau.png'); */
+header img{    
     background-repeat: no-repeat, repeat;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
+}
+
+@media screen and (max-width: 768px) {
+    header img{
+        background-repeat: no-repeat, repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .head_subtitle{
     color: black;
     backdrop-filter: blur(6px);
-    background-color: rgba(244, 124, 124, 0.8);
+    background-color: rgba(252, 200, 152, 0.8);
     border-radius: 1rem;
     font-size: 16px;
     padding: 0.7rem;

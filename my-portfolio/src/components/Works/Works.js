@@ -13,8 +13,8 @@ function Works(){
         <div 
         className={ theme ? "works_container goLight" : "works_container goDark" }
         >
-            <Header />
             <div className="works">
+                <Header />
                 <h3 className="work_title">Works</h3>  
                 <div className="work">
                     <img src={iris} alt="work"></img>
