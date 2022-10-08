@@ -42,8 +42,17 @@
     }
 }
 
+@media  (max-width: 1208px) {
+    .home section{
+        width: 50%;
+    }
+}
 
-
+@media  (max-width: 750px) {
+    .home section{
+        width: 80%;
+    }
+}
 
 
 section h3{
@@ -65,6 +74,7 @@ section h3{
     display: flex;
     align-items: flex-start;
     flex-direction: row;
+    text-align: left;
 }
 
 .info span{
@@ -82,21 +92,6 @@ section h3{
     font-size: 1.1rem;
     font-weight: 500;
 }
-
-/* .loves_info .contact_btn{
-    color: black;
-    border: none;
-    background-color: rgba(144, 145, 234, 0.6);
-    border-radius: 1rem;
-    font-size: 16px;
-    padding: 0.7rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.loves_info .contact_btn:hover{
-    background-color: rgba(144, 145, 234, 0.8);
-    text-decoration: none;
-} */
 
 .contact_btn{
     margin-top: 2rem;
