@@ -13,7 +13,7 @@ function App() {
 		<div className="main">
 			<ThemeContextProvider>
 				<BrowserRouter>
-					<div className="container aa">
+					<div className="container">
 						<Nav/>
 						<Routes>
 							<Route path="/" element={<Home />} />

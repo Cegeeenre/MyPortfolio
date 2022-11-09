@@ -4,7 +4,6 @@ header {
     /* background-color: #EEF1FF; */
     display: flex;
     justify-content: center;
-    backdrop-filter: blur(0.6rem);
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -13,6 +12,7 @@ header {
 }
 
 header img{    
+    backdrop-filter: blur(0.6rem);
     background-repeat: no-repeat, repeat;
     /* background-size: cover; */
 }
@@ -28,7 +28,7 @@ header img{
 
 .head_subtitle{
     color: black;
-    backdrop-filter: blur(6px);
+    /* backdrop-filter: blur(6px); */
     background-color: rgba(252, 200, 152, 0.8);
     border-radius: 1rem;
     font-size: 16px;
